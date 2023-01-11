@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <h1>Survey Form for Students</h1>
+    <p>This Survey form is for students. Please fill all the details carefully</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+            <label for="first-name"> Enter Your First Name: 
+                <input id="first-name" name="first-name" type="text" required/>
+            </label>
+            <label for="last-name"> Enter Your Last Name: 
+                <input id="last-name" name="last-name" type="text" required/>
+            </label>
+            <label for="ClassSection">Class and Section : 
+                <input id="ClassSection" name="ClassSection" type="text" required/>
+            </label>
+            <label for="mobileno">Enter your Mobile number: 
+                <input id="mobileno" name="mobileno" type="number"  required />
+            </label>
+            <label for="address">Address: 
+                <input id="address" name="address" type="text" required />
+            </label>
+            <label for="schoolname">Your School name: 
+                <input id="schoolname" name="schoolname" type="text" required />
+            </label>
+        </fieldset>
+        <fieldset>
+            <p>Fill the correct in the following questions:</p>
+            <p>1.Which of the following best describes your reason for taking the course?</p>
+            <label for="Generaleducation">
+                <input id="Generaleducation" type="radio" name="class-type" class="inline" /> 
+                General education</label>
+            <label for="Major elective course">
+                <input id="Major elective course" type="radio" name="class-type" class="inline" /> 
+                Major elective course</label>
+            <label for="Major/minor requirement">
+                <input id="Major/minor requirement" type="radio" name="class-type" class="inline" /> 
+                Major/minor requirement</label>
+            <label for="University elective">
+                <input id="University elective" type="radio" name="class-type" class="inline" /> 
+                University elective</label>
+        
+            <p>2.What year of school are you in?</p>
+            <label for="senior">
+                <input id="senior" type="radio" name="class-type" class="inline" /> 
+                Senior</label>
+            <label for="junior">
+                <input id="junior" type="radio" name="class-type" class="inline" /> 
+                Junior</label>
+            <label for="graduate">
+                <input id="graduate" type="radio" name="class-type" class="inline" /> 
+                Graduate</label>
+            <label for="freshman">
+                <input id="freshman" type="radio" name="class-type" class="inline" /> 
+                Freshman</label>
+                <p>3. Was the difficulty of the course in line with your expectations?</p>
+                <label for="yes">
+                    <input id="yes" type="radio" name="class-type" class="inline" /> 
+                    Yes</label>
+                <label for="no">
+                    <input id="no" type="radio" name="class-type" class="inline" /> 
+                    No</label>
+                <label for="maybe">
+                    <input id="maybe" type="radio" name="class-type" class="inline" /> 
+                    Maybe</label>
+                <p>Would you recommend this course to other students?</p>
+                <label for="yes">
+                    <input id="yes" type="radio" name="class-type" class="inline" /> 
+                    Yes</label>
+                <label for="no">
+                    <input id="no" type="radio" name="class-type" class="inline" /> 
+                    No</label>
+                <fieldset>
+                <label for="bio">If no, why not?
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="">
+                        </textarea>
+                      </label>
+                    </fieldset>
+
+        </fieldset>
+    </form>
+</body>
+</html>

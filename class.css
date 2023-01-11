@@ -1,0 +1,49 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(163, 82, 82);
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  h1{
+    margin: 1em auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  form {
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #8b8bb1;
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  textarea{
+    margin: 10px 0 0 0;
+    width: 30%;
+    min-height: 2em;
+
+  }
